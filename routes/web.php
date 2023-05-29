@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\VehiculoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/createVehiculo', [VehiculoController::class, 'index']);
+Route::post('/createVehiculo', [VehiculoController::class, 'create']);
+Route::get('/Vehiculos', [VehiculoController::class, 'get']);
