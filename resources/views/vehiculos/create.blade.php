@@ -5,7 +5,7 @@
     <div class="position-absolute top-50 start-50 w-50 translate-middle">
         <div class="bg-info p-2">
             <h2 class="text-center mb-5">Formulario Crear Vehiculo</h2>
-            <form action="{{url('Vehiculos')}}" method="POST" >
+            <form action="{{url('createVehiculo')}}" method="POST" >
                 @csrf
                 <div class="mb-3">
                     <input type="text" class="form-control" name="marca" placeholder="Marca">
