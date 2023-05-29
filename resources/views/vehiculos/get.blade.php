@@ -6,9 +6,9 @@
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Marca Vehiculo</th>
+            <th scope="col">Modelo</th>
+            <th scope="col">Tipo</th>
           </tr>
         </thead>
         <tbody>
